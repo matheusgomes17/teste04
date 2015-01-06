@@ -1,0 +1,22 @@
+.container{
+    background: #f6f6f6;
+}
+
+section .jumbotron{
+    background: #f6f6f6;
+}
+
+/*************************
+form busca
+*************************/
+form{
+    padding: 10px;
+}
+
+/*************************
+footer
+*************************/
+footer .col-lg-12{
+    text-align: center;
+    padding: 10px 0;
+}
