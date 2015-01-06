@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS `{$tableName}` (
   `id` INT(10) NOT NULL AUTO_INCREMENT,
   `pages` VARCHAR(50) NOT NULL,
   `conteudo_titulo` VARCHAR(250) NOT NULL,
-  `conteudo_principal` VARCHAR(250) NOT NULL,
-  `conteudo_content` VARCHAR(250) NOT NULL,
+  `conteudo_principal` TEXT NOT NULL,
+  `conteudo_content` TEXT NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;";
     echo (executaSQL($sqlCriaPaginas, null)) ? '- Tabela ' . $tableName . ' criada com sucesso!' . chr(13) . chr(10) : '- Erro ao tentar criar a tabela ' . $tableName . '!' . chr(13) . chr(10);
