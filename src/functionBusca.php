@@ -25,7 +25,7 @@ function busca() {
         echo '<h3>A palavra <strong>' . $palavra . '</strong> retornou: ' . $query->rowCount() . ' resultados </h3>';
         $listar = $resultado = $query->fetchAll(PDO::FETCH_ASSOC);
         foreach ($listar as $value):
-            echo "<h4><a href=\"{$value["pages"]}\">" . strip_tags($value["conteudo_titulo"]) . "</a></h4>";
+            echo "<h4><a href=\"{$value["pages"]}\">" . strip_tags($value[$palavra]) . "</a></h4>";
         endforeach;
     } else {
         echo 'Nenhum resultado encontrado com a palavra <strong>' . $palavra . '</strong>';
