@@ -26,6 +26,6 @@ PSSS: Conte conosco SEMPRE!
 <h4>Como usar o website</h4>
 
 - Execute o arquivo "fixtures.php" no terminal para criar o banco de dados.
-- O arquivo fixture.php, está configurado para servidor local "localhost" com usuário "<b>root</b>" e password "" e os dados para conectar ao painel de controle são login: "<b>admin</b>" e senha: "<b>1234</b>".
-- Para mudar as configurações basta alterar no arquivo "<b>src/config.php</b>" e no arquivo "<b>src/admin/painel/functions/config.php</b>".
+- O arquivo fixture.php, está configurado para servidor local "localhost" com usuário "<b>root</b>" e password "<b>root</b>" e os dados para conectar ao painel de controle são login: "<b>admin</b>" e senha: "<b>1234</b>".
+- Para mudar as configurações basta alterar no arquivo "<b>src/config.php</b>".
 - Execute o comando "<b>php -S localhost:8090 -t public</b>" para iniciar o servidor.
